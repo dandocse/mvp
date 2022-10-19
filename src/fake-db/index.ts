@@ -1,0 +1,27 @@
+import Mock from "./mock";
+import "./server/dashboard";
+import "./server/fashion-shop-2";
+import "./server/fashion-shop/carouselsDB";
+import "./server/fashion-shop/sectionDB";
+import "./server/furniture-shop/navigationDB";
+import "./server/furniture-shop/productsDB";
+import "./server/gadget-shop/carouselsDB";
+import "./server/gadget-shop/sectionsDB";
+import "./server/gift-shop/navigationDB";
+import "./server/gift-shop/productsDB";
+import "./server/gift-shop/servicesAndCategoriesDB";
+import "./server/grocery1-shop/navigationDB";
+import "./server/grocery1-shop/productsDB";
+import "./server/grocery1-shop/servicesDB";
+import "./server/grocery2-shop/carouselsDB";
+import "./server/grocery2-shop/navigationDB";
+import "./server/grocery2-shop/sectionDB";
+import "./server/grocery3-shop/productsDB";
+import "./server/healthbeauty-shop/navigationDB";
+import "./server/healthbeauty-shop/productsDB";
+import "./server/healthbeauty-shop/servicesDB";
+import "./server/related-products/productsDB";
+import "./server/market-1/carouselsDB";
+import "./server/market-1/sectionsDB";
+
+Mock.onAny().passThrough();
